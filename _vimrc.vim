@@ -120,6 +120,7 @@
 :set showmatch
 :set ruler
 :set list
+:set listchars=tab:>.
 :set nowrap
 :set history=5
 " Mostra as chaves parênteses ou colchetes pares

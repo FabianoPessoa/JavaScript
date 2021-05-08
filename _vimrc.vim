@@ -16,7 +16,7 @@
 ":colorscheme darkblue
 ":colorscheme shine
 ":colorscheme delek
-:colorscheme koehler
+":colorscheme koehler
 ":colorscheme evening
 ":colorscheme industry
 ":colorscheme koehler
@@ -244,6 +244,4 @@ map! 'U Ú
 " ------------Configurac,a'o  da Tela -------------------
 "  --------------------------------------------------------
 :tabnew
-:tabnew
-:tabnew
-:e! .vimrc.vim
+:e! _vimrc.vim

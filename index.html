@@ -13,21 +13,36 @@
 		<script>
 			/* Tipos de saidas JavaScript */
 			/* Alerta */
-			window.alert('Alerta');
+			window.alert("Alerta");
 			/* informe */
-			window.confirm('Informe');
+			window.confirm("Informe");
 			/* prompt */
-			var nome = window.prompt('Prompt');
-			document.write('Variavel',"<br>");
+			var nome = window.prompt("Prompt");
+			document.write("Variavel","<br>");
 			/* Variaveis */
-			var n1 = 8;
-			var n2 = 5;
-			document.write("<br>",n1);
-			document.write("<br>",n2);
-			document.write("<br>",n1+n2);
-			document.write("<br>",'Seu nome e  ' + nome);
+/* Assim ele nao atribui um numero a n1 e n2 */
+/*Tanto faz aspas simples ou duplas */
+			var n1 = Number.parseInt(window.prompt("Digite um numero"));
+			var n2 = Number.parseInt(window.prompt("Digite um numero"));
+			/* Number.parseFloat(); altera as dimensoes da variavel */
+			/* String(n) converte um numero para uma string */
+/* Assim sim */
+			var n3 = 3;
+			var n4 = 4;
+			document.writeln(n1);
+			document.writeln(n2);
+			document.writeln(n3+n4); // + pode ser concatenacao ou soma
+			document.writeln(n1+n2); 			
+			document.write("<br>","Seu nome e  " + nome);
+			/* Aplicacao ce place holder */
+			document.write("<br>",`Seu nome e ${nome}`);
 			var tipo = typeof nome; // diz que tipo de variavel e
+/* Pode ser utilizado
+* var, leg , const
+*/
+
 			document.write("<br>",tipo);
+		
 		</script>
 	</body>
 </html>

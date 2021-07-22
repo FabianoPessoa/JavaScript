@@ -1,0 +1,11 @@
+=========================
+******* Editor NANO ******
+-------------------------
+[Ctrl] + [f]: ->
+[Ctrl] + [b]: - >
+[Ctrl] + [p]: cima
+[Ctrl] + [n]: baixo
+Copiar: [Alt] + [a] => [Ctrl] + [f] => [Alt]+ [6]
+Colar:  [Ctrl] + [u]
+Deletar letra: [Ctrl] + [d]
+Deletar linha: [Ctrl] + [k]

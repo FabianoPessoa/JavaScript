@@ -17,15 +17,46 @@
 		<h1> Iniciando estudos do DOM </h1>
 		<p>Aqui está o resultado</p>
 		<p> Aprendendo a usar o <strong>DOM</strong> em JavaScript.</p>
-		<div>Clique aqui</div>
+		<div id="msg">Clique aqui</div>
 		<script>
 		  var corpo = window.document.body;
 			var p1 = window.document.getElementsByTagName('p')[1];
+			var d = window.document.getElementById('msg');
+			d.style.background = 'green';
+			d.innerText = 'Estou aguardando...';
+			// Outra maneira
+			window.document.getElementById('msg').innerText = 'Olá!';
+			/*getElementById(), getElementsByName(), getElementsByClassName(), */
+			// getElementsByClassName(), querySelector(), querySeletorAll()
+			var d = window.document.querySelector('div#msg');
+			//id : # 
+			//class : .
+			d.style.color = 'blue';
 			window.document.write('Está escrito assim:' + p1.innerText);
 			p1.style.color = 'blue';
 			corpo.style.background = 'black';
 			/* Pegando os paragrafos  */
 			document.write(p1.innerText);
+			/*innerText, innerHTML  */
+			window.alert(p1.innerText);
 		</script>
+		DOM: Modelo de Objeto de Documentos
+		Arvore DOM
+		Rais: window
+		  lacation
+		  document
+		    html
+		      head
+		        meta
+		        title
+		      body
+		        h1
+		        p
+	            strong
+		        div
+		  history
+		  muitos outros objetos
+		  Tipos de Acesso:
+		  Marca, ID, Nome, Classe, Seletor.
 	</body>
 </html>

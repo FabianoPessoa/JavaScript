@@ -9,3 +9,6 @@ Copiar: [Alt] + [a] => [Ctrl] + [f] => [Alt]+ [6]
 Colar:  [Ctrl] + [u]
 Deletar letra: [Ctrl] + [d]
 Deletar linha: [Ctrl] + [k]
+[Ctrl] + [a] Início da linha
+[Ctrl] + [e] Fim da linha
+

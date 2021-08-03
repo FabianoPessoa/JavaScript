@@ -9,6 +9,11 @@
 " vi -u .vimrc.vim
 " Abrindo as configurações junto com um novo arquivo
 " nvim (ou equivalente) -u _vimrc.vim <arquivo>.<formato>
+" Pode ser adicionado um arquivo .ex no diretório home
+" /home
+" 	.exrc
+" Abra o editor Vi normalmente em qualquer ambiente sem
+" precisar $ vi -u .vimrc.vim <arquivo>.<formato>
 "=======================================================
 " ---- Temas ---
 ":colorscheme blue

@@ -4,29 +4,27 @@
 	<meta charset="UTR-8">
 	<meta name="viewport" content="width-device-width, initial-scale=1.0΅>
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>DETRAN</title>
+	<title>Modelo</title>
+	<link rel="stylesheet" href="estilo.css">
 </head>
 <body>
-	<h1>Sistemas de Multas </h1>
-	Velocidade do carro: <input type="number" name="txvel" id="txvel"> km/h
-	<input type="button" value="Verificar" onclick="calcular()">
-	<div id="res">
-	</div>
-	<script>
-		function calcular(){
-			/*  var txtv = window.document.getElementById('txvel'); */ 
-			var txtv = window.document.querySelector('input#txvel');
-			var res = window.document.querySelector('div#res');
-			var vel = Number(txtv.value);
-			res.innerHTML = `<p> Sua velocidade ${vel}km/h </p>`;
-			if(vel > 60){ 
-				res.innerHTML += `<p> Você está multado </p>`;
-			}
-			else{ 
-				res.innerHTML += `Velocidade Permitida`;
-				}
-			res.innerHTML +=`<p>Dirija sempre com  cinto de segurança</p>`;
-		} 
-	</script>
+	<header>
+		<h1>Título</h1>
+	</header>
+	<section>
+
+		<div>
+			Testando
+		</div>
+
+		<div>
+			Olá!
+		</div>
+
+	</section>
+	<footer>
+		 <p>Curso em Vídeos. </p>
+	</footer>
+	<script src="script.js"></script>
 </body>
 </html>

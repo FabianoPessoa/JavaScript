@@ -49,6 +49,11 @@
 " Mostra comandos
 :set showcmd
 :set encoding=utf-8
+" retira o som de beep
+:set noerrobells
+:set visualbell
+:set t_vb=
+
 " ----------------------------------------------------
 " quebra de linha do texto
 " verificar qual é o ideal quebra de linhas
@@ -249,5 +254,9 @@ map! 'U Ú
 " ------------Configurac,a'o  da Tela -------------------
 "  --------------------------------------------------------
 :e! ex02.html
+:tabnew
+:e! estilo.css
+:tabnew
+:e! script.js
 :tabnew
 :e! .vimrc.vim

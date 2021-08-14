@@ -1,0 +1,17 @@
+/*
+* Arquivo de configuração de estilo
+*
+*
+*/
+body { 
+	background: grey; 
+	}
+header{
+	}
+section{
+	background: white;
+	border-radiuns: 10px;
+	margin: auto;
+	}
+footer{
+	}

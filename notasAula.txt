@@ -1,0 +1,41 @@
+================================================================
+************************* Aula #12 ****************************
+---------------------------------------------------------------
+/*
+*  Mudando a idade o console mostra se
+*  a idade é maior ou menor. 
+*/
+var idade = 22
+if (idade < 18) {
+	console.log('Manor de idade')
+}
+else {
+	console.log('Maior de idade')
+}
+A estrutura permite
+if
+else if
+else
+-------------------------------------------------------------
+Dentro de console.log(`Posso chamar qualquer variável por ${val}`)
+--------------------------------------------------------------
+Pegando hora do sistema
+var hora = new Date();
+var hora = agora.getHours();
+-------------------------------------------------------------
+comando switch
+var diaSem = agora.getDay();
+/* Dom = 0, Seg = 1, ... Sab = 6 */
+switch (diaSem){
+	case valor 0:
+		console.log('Dom');
+		break;
+	case valor 2:
+		console.lo('Seg');
+		break;
+	...
+	
+	default:
+		console.log('nenhum dia digitado');
+		break;
+}

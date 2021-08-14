@@ -1,4 +1,4 @@
-" --------------------------------------------------------
+--------------------------------------------------------
 "  ****  Configuração Básica do NeoVim preferenciais ***
 "  ------------------------------------------------------
 " Forma de aplicar configurações iniciais e linha de comandos

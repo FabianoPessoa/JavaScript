@@ -4,8 +4,8 @@ function carregar(){
   var img = window.document.getElementById('imagem');
   var data = new Date();
   /* Comentar a hora abaixo e forc,ar outros hora'rios */
-  //var hora = data.getHours();
-  var hora = 19;
+  var hora = data.getHours();
+  //var hora = 19;
   msg.innerHTML = `Agora são ${hora} horas`
   if (hora >= 0 && hora < 12){
     //Bom dia! 

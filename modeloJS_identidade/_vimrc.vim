@@ -50,7 +50,6 @@
 :set showcmd
 :set encoding=utf-8
 " retira o som de beep
-:set noerrobells
 :set visualbell
 :set t_vb=
 
@@ -259,4 +258,4 @@ map! 'U Ú
 :tabnew
 :e! script.js
 :tabnew
-:e! .vimrc.vim
+:e! _vimrc.vim

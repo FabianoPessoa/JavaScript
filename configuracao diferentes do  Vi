@@ -3,6 +3,8 @@ Comandos uteis do Vi
 u		desfaz todas as alteracoes
 [Ctrl] + r	refaz as alteracoes
 .		Repete o ultimo comento
+------------------------------------------
+
 <numero da linha>#		leva voce direto para a linha	
 Navegação
 

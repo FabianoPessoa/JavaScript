@@ -145,7 +145,10 @@ Modo Inserção
 <esc> ou ^[ . . . . . . . abandona edição ! modo comando
 
 
-
+Modo Comando
+-------------
+^c. . . . . . . . . . . .Vai para o modo de comando
+[Esc]. . . . . . . . . . Vai para o mode de comando.
 
 Copiando
 --------

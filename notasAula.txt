@@ -2,6 +2,7 @@
 ************************* Aula #12 ****************************
 alteracao para testa as correcoes
 * seque os codigos
+* corrigir
 ---------------------------------------------------------------
 /*
 *  Mudando a idade o console mostra se

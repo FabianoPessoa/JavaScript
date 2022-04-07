@@ -258,7 +258,7 @@ Volta ao hash e apaga todos os commit a frente
 ===========================================
 ****** CRIANDO RAMIFICAC,O'ES
 -------------------------------------------
-$ git bransh
+$ git branch
 * master
 Identifica a ramificac,a'o
 $ git log --oneline

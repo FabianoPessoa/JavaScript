@@ -316,6 +316,51 @@ $ git merge novoramo
 Resolver conflitos
 ou
 $ git merge --abort
+=============================================================
+**********  workflow-GitHub ********************
+--------------------------------------------------
+$ git init
+$ git status
+Alteracao
+$ git add *
+$ git commit -m "*"
+$ git log --oneline --graph --all
+hash: *******
+$ git push
+Nome
+Token
+Alteracao
+$ git add *
+$ git commit -m "*"
+hash: *******
+alteracao
+$ git add *
+$ git commit -m "*"
+hash: #######
+ERRO
+$ git add *
+$ git commit -m "*"
+hash: *******
+Volta para o hash anterior ao erro
+$ git checkout #######
+Criar um ramo no ponto #######
+$ git checkout -b ramo
+Correcao de em #######
+$ git add * && git commit -m "*"
+hash: +++++++
+$ git checkout master
+$ git branch
+$ git checkout #######
+$ git merge ramo
+Verificar os conflitos no codigo
+>>>>>> HEAD
 
+=======
 
-FIM DE COMANDOS DO GITHUB
+<<<<<<<<< ramo
+
+$ git add * && git commit -m "*"
+hash: %%%%%%%
+$ git log --oneline --graph --all
+
+*******FIM DE COMANDOS DO GITHUB

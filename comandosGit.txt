@@ -319,16 +319,30 @@ $ git merge --abort
 =============================================================
 **********  workflow-GitHub ********************
 --------------------------------------------------
+Cria um um repositorio local dentro do computador
 $ git init
+Ou voce pode criar um repositorio no github
+e fazer um 
+$ git clone https:\\github.com/FabianoPessoa/nomedorepositorio.git
 $ git status
 Alteracao
 $ git add *
+---------------------------------------------------
+Caso nao queira comitar ou seja remover o arquivo do conteiner
+faca:
+$ git reset nome do arquivo
+Caso contrario
+|
+V
+-----------------------------------------
 $ git commit -m "*"
 $ git log --oneline --graph --all
 hash: *******
+
 $ git push
 Nome
 Token
+
 Alteracao
 $ git add *
 $ git commit -m "*"

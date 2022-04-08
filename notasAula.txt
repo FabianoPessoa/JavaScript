@@ -4,6 +4,7 @@ alteracao para testa as correcoes
 * segue para ramo principal
 * outra alteracao
 * segure o barco
+* Programa corrigido compilacao OK
 ---------------------------------------------------------------
 /*
 *  Mudando a idade o console mostra se

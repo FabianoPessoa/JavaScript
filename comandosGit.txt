@@ -377,4 +377,7 @@ $ git add * && git commit -m "*"
 hash: %%%%%%%
 $ git log --oneline --graph --all
 
+
+
+
 *******FIM DE COMANDOS DO GITHUB

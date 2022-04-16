@@ -147,8 +147,10 @@ Modo Inserção
 
 Modo Comando
 -------------
+Ctrl + c. . . . . . . . .Vai para o modo de comando
 ^c. . . . . . . . . . . .Vai para o modo de comando
-[Esc]. . . . . . . . . . Vai para o mode de comando.
+[Esc]. . . . . . . . . . Vai para o mode de comando
+Ctrl + [. . . . . . . . .Vai para o mode de comando
 
 Copiando
 --------

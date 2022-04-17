@@ -5,6 +5,7 @@
 	<meta name="viewport" content="width-device-width, inicial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<title> Verificador de idade </title>
+	<!-- chama o script css -->
 	<link rel="stylesheet" href="estilo.css">
 </head>
 <body>
@@ -16,14 +17,16 @@
 			<p>Ano de Nascimento:
 				<input type="number" name="txtano" id="txtano" min="0">	
 			</p>
-			<p>
+			<p> 
+				<!-- marcacao masculino -->
 				<input type="radio" name="radsex" id="mas" checked>
 				<label for="mas">Masculino </label>
+				<!-- Marcacao feminino -->
 				<input type="radio" name="radsex" id="fem">
-				<label for="fem"> Feminimo</label>
+				<label for="fem">Feminimo</label>
 			</p>
 			<p>
-				<input type="button" value="Verificar" onclick="verificar()" >
+				<input type="button" value="Verificar" onclick="verificar()">
 			</p>
 		</div>
 		<div id="res">
@@ -33,6 +36,7 @@
 	<footer>
 		<p>&copy; CursoemVideo </p>
 	</footer>
+	<!-- chamar o scrip.js -->
 	<script src="script.js"></script>
 </body>
 </html>

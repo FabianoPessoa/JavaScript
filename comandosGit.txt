@@ -364,20 +364,24 @@ $ git add * && git commit -m "*"
 hash: +++++++
 $ git checkout master
 $ git branch
+Diz os ramos e em qual estou
 $ git checkout #######
 $ git merge ramo
 Verificar os conflitos no codigo
 >>>>>> HEAD
-
+Verfique que a correcao esta aqui
 =======
-
+O erro esta aqui
 <<<<<<<<< ramo
-
+Comite o codigo corrigido
 $ git add * && git commit -m "*"
 hash: %%%%%%%
 $ git log --oneline --graph --all
-
-
-
+Dentro ainda do ramo faca
+$ git merge master
+Verique que tudo ocorreu certo
+O grafo da correcao aparece aqui vvv
+$ git log --oneline --graph --all
+Aparece o ramo corrigido
 
 *******FIM DE COMANDOS DO GITHUB
